@@ -25,58 +25,62 @@
   </head>
   <body>
     <header>
-      <nav class="navbar">
-        <ul class="navbar-menu">
-          <li class="logo-box">
-            <img class="logo" src="images/logo.svg" alt="" />
-          </li>
+      <div id="header">
+        <img class="logo" src="images/logo.svg" alt="" />
+        <img id="hamburger-menu" src="images/icon-menu.svg" alt="">
+      </div>
 
-          <li id="feature-button">
-            Features
-            <img id="icon-arrow-down" src="images/icon-arrow-down.svg" alt="" />
-            <nav id="hover-elements" style="display: none;">
-              <div>
-                <img src="images/icon-todo.svg" alt="">
-                <p>Todo List</p>
-              </div>
-              <div>
-                <img src="images/icon-calendar.svg" alt="">
-                <p>Calendar</p>
-              </div>
-              <div>
-                <img src="images/icon-reminders.svg" alt="">
-                <p>Reminders</p>
-              </div>
-              <div>
-                <img src="images/icon-planning.svg" alt="">
-                <p>Planning</p>
-              </div>
-            </nav>
-          </li>
+      <div id="overlay" style="display: none;">
+        <nav id="navbar">
 
-          <li id="company-button">
-            Company
-            <img id="icon-arrow-down" src="images/icon-arrow-down.svg" alt="" />
-            <nav id="hover-element-company-button" style="display: none;">
-              <p>History</p>
-              <p>Our Team</p>
-              <p>Blog</p>
-            </nav>
-          </li>
-
-          <li>Careers</li>
-          
-          <li>About</li>
-        </ul>
-        <ul class="sign-register-block">
-          <li>
-            <span class="login-button">Login</span>
-          </li>
-          <li>
-            <span class="register-button">Register</span>
-          </li>
-        </ul>
-      </nav>
+          <ul id="navbar-menu">
+            <li id="feature-button">
+              Features
+              <img id="icon-arrow-down" src="images/icon-arrow-down.svg" alt="" />
+              <nav id="hover-elements" style="display: none;">
+                <div>
+                  <img src="images/icon-todo.svg" alt="">
+                  <p>Todo List</p>
+                </div>
+                <div>
+                  <img src="images/icon-calendar.svg" alt="">
+                  <p>Calendar</p>
+                </div>
+                <div>
+                  <img src="images/icon-reminders.svg" alt="">
+                  <p>Reminders</p>
+                </div>
+                <div>
+                  <img src="images/icon-planning.svg" alt="">
+                  <p>Planning</p>
+                </div>
+              </nav>
+            </li>
+  
+            <li id="company-button">
+              Company
+              <img id="icon-arrow-down" src="images/icon-arrow-down.svg" alt="" />
+              <nav id="hover-element-company-button" style="display: none;">
+                <p>History</p>
+                <p>Our Team</p>
+                <p>Blog</p>
+              </nav>
+            </li>
+  
+            <li>Careers</li>
+            
+            <li>About</li>
+          </ul>
+          <ul class="sign-register-block">
+            <li>
+              <span class="login-button">Login</span>
+            </li>
+            <li>
+              <span class="register-button">Register</span>
+            </li>
+          </ul>
+        </nav>
+      </div>
     </header>
 
     <main>

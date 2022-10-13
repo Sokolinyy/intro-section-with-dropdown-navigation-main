@@ -1,5 +1,4 @@
 
-
 function display__hide__elements(button_id, element_id) {
   // Function for display and hide elements: first click - show element,
   // second click - hide element. 
@@ -19,6 +18,16 @@ function display__hide__elements(button_id, element_id) {
   })
 }
 
+window.addEventListener("resize", function() {
+  if (window.matchMedia("(min-width: 705px)").matches) {
+    this.document.getElementById("container").style.display = ''
+  } else {
+    this.document.getElementById("container").style.display = 'none'
+  }
+})
+
+
+
 display__hide__elements (
 
   "feature-button",
@@ -28,4 +37,9 @@ display__hide__elements (
 display__hide__elements (
   "company-button",
   "hover-element-company-button"
+)
+
+display__hide__elements (
+  "hamburger-menu",
+  "container"
 )

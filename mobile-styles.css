@@ -1,0 +1,163 @@
+* {
+  font-family: 'Epilogue', sans-serif;
+}
+
+body {
+  height: 100vh;
+}
+
+#hamburger-menu {
+  cursor: pointer;
+  z-index: 1;
+}
+
+#hamburger-menu li:hover {
+  color: black;
+}
+
+#overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 120vh;
+  width: 100%;
+}
+
+#header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 10px;
+}
+
+#icon-arrow-down {
+  height: 8px;
+  margin-left: 2px;
+}
+
+nav ul .register-button {
+  border: 1px solid black;
+  padding: 8px 20px;
+  border-radius: 6px;
+}
+
+.image-hero {
+  display: none;
+}
+
+.mobile-image-hero {
+  width: 100%;
+}
+
+.info-container {
+  text-align: center;
+}
+
+.info-container h1 {
+  font-size: 35px;
+}
+
+.info-container h1, p, button {
+  margin: 30px;
+}
+
+.info-container h1 br {
+  display: none;
+}
+
+.description {
+  font-size: 18px;
+  max-width: 420px;
+  margin: auto;
+}
+
+.learn-more-button {
+  color: white;
+  border: none;
+  background-color: black;
+  padding: 16px 23px;
+  border-radius: 15px;
+  margin-bottom: 30px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.learn-more-button:hover {
+  color: black;
+  padding: 15px 22px;
+  background-color: white;
+  border: 1px solid gray;
+  transition: background-color 0.15s;
+}
+
+.client {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  left: 16%;
+}
+
+.client li {
+  margin-right: 20px;
+}
+
+.client img {
+  width: 72px;
+}
+
+#container {
+  position: absolute;
+  height: 106vh;
+  width: 60vw;
+  background-color: rgba(255, 255, 255);
+  right: 0;
+  top: 0;
+  padding-top: 100px;
+}
+
+#container li {
+  font-size: 15px;
+}
+
+#navbar-menu {
+  margin: 0;
+}
+
+#navbar-menu p {
+  margin: 10px;
+}
+
+nav li {
+  list-style: none;
+  font-size: 25px;
+  padding: 10px;
+  color: rgb(89, 89, 89);
+  cursor: pointer;
+}
+
+#navbar div {
+  display: flex;
+}
+
+#navbar div img {
+  object-fit: contain;
+  width: 15px;
+}
+
+.sign-register-block {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+#company-button nav, #hover-elements div {
+  margin-left: 20px;
+}
+
+.attribution {
+  font-size: 13px;
+  margin: 20px;
+  text-align: center;
+}

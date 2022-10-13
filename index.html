@@ -14,7 +14,9 @@
 
     <title>Frontend Mentor | Intro section with dropdown navigation</title>
 
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="mobile-styles.css" />
+    <link rel="stylesheet" href="desktop-styles.css">
+    <link rel="stylesheet" href="tablet-styles.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -29,9 +31,13 @@
         <img class="logo" src="images/logo.svg" alt="" />
         <img id="hamburger-menu" src="images/icon-menu.svg" alt="">
       </div>
-
-      <div id="container">
-        <nav id="navbar">
+      
+      <!-- For overlay -->
+      <div id="overlay" style="display: none;">
+          
+      </div>
+      <nav id="container">
+        <div id="navbar">
           <ul id="navbar-menu">
             <li id="feature-button">
               Features
@@ -65,7 +71,7 @@
                 <p>Blog</p>
               </nav>
             </li>
-  
+
             <li>Careers</li>
             
             <li>About</li>
@@ -78,8 +84,8 @@
               <span class="register-button">Register</span>
             </li>
           </ul>
-        </nav>
-      </div>
+        </div>
+      </nav>
     </header>
 
     <main>
@@ -121,9 +127,9 @@
         Challenge by
         <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
           >Frontend Mentor</a
-        >. Coded by <a href="#">Your Name Here</a>.
+        >. Coded by <a href="https://github.com/Sokolinyy" target="_blank">Vasyl</a>.
       </address>
     </footer>
-    <script src="index.js"></script>
+    <script src="app.js"></script>
   </body>
 </html>

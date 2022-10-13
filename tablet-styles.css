@@ -1,0 +1,9 @@
+@media screen and (min-width: 560px) and (max-width: 720px) {
+  #overlay {
+    height: 137vh;
+  }
+
+  #container {
+    height: 123vh;
+  }
+}

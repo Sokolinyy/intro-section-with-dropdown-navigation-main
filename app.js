@@ -1,4 +1,3 @@
-
 function display__hide__elements(button_id, element_id) {
   // Function for display and hide elements: first click - show element,
   // second click - hide element. 
@@ -6,6 +5,7 @@ function display__hide__elements(button_id, element_id) {
     // addEventLister for onclick. Then you have button id for targeting
     // some button
     if (document.getElementById(element_id).style.display === "none") {
+      
       // Etc: button id will be "<button id='show-me'>Show me!"</button>
       // and some div in html - "<div id='#text'>Hello</div>"
       // When you call this function and in parameters you will pass 
@@ -19,9 +19,10 @@ function display__hide__elements(button_id, element_id) {
 }
 
 window.addEventListener("resize", function() {
-  if (window.matchMedia("(min-width: 705px)").matches) {
+  if (window.matchMedia("(min-width: 722px)").matches) {
     this.document.getElementById("container").style.display = ''
   } else {
+    this.document.querySelector("#overlay").style.display = 'none'
     this.document.getElementById("container").style.display = 'none'
   }
 })
@@ -42,4 +43,9 @@ display__hide__elements (
 display__hide__elements (
   "hamburger-menu",
   "container"
+)
+
+display__hide__elements(
+  "hamburger-menu",
+  "overlay"
 )

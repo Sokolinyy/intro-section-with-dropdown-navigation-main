@@ -214,8 +214,6 @@ nav li {
 
   #navbar-menu {
     display: flex;
-    align-items: center;
-    justify-content: center;
   }
   
   nav ul {

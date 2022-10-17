@@ -1,3 +1,5 @@
+
+
 function display__hide__elements(button_id, element_id) {
   // Function for display and hide elements: first click - show element,
   // second click - hide element. 
@@ -38,14 +40,4 @@ display__hide__elements (
 display__hide__elements (
   "company-button",
   "hover-element-company-button"
-)
-
-display__hide__elements (
-  "hamburger-menu",
-  "container"
-)
-
-display__hide__elements(
-  "hamburger-menu",
-  "overlay"
 )

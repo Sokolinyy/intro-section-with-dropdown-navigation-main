@@ -49,12 +49,13 @@
     padding: 13px;
     position: fixed;
     width: 87%;
-    height: 8%;
+    height: 6%;
     top: 0%;
     left: 10%;
     background-color: rgb(243, 243, 243);
     margin-left: 20px;
     z-index: 1;
+    display: block;
   }
 
   #navbar {
@@ -89,8 +90,8 @@
 
   nav ul .register-button {
     border: 1px solid black;
-    padding: 10px 15px;
-    border-radius: 6px;
+    padding: 10px 18px;
+    border-radius: 10px;
   }
   
   /* HOVER CONTENT */
@@ -123,16 +124,16 @@
   main {
     width: 100%;
     display: flex;
-    justify-content: space-evenly;
     align-items: center;
-    margin-top: 65px;
+    justify-content: center;
+    margin-top: 35px;
   }
 
   .info-container {
     position: relative;
     text-align: left;
     line-height: 60px;
-    min-width: 50%;
+    min-width: 45%;
   }
   
   .info-container h1 {
@@ -160,8 +161,8 @@
     color: white;
     border: none;
     background-color: black;
-    padding: 14px 19px;
-    border-radius: 8px;
+    padding: 14px 25px;
+    border-radius: 14px;
     cursor: pointer;
   }
   
@@ -175,7 +176,7 @@
   
   .client {
     position: absolute;
-    bottom: -120px;
+    bottom: -150px;
     left: 0;
   }
 

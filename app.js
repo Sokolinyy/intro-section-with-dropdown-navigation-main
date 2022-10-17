@@ -1,4 +1,4 @@
-
+const cssObj = window.getComputedStyle(element, null);
 
 function display__hide__elements(button_id, element_id) {
   // Function for display and hide elements: first click - show element,
@@ -20,6 +20,19 @@ function display__hide__elements(button_id, element_id) {
   })
 }
 
+function render(var1, var2) {
+  document.getElementById(var1).addEventListener('click', function() {
+    let x = document.getElementById(var2)
+    if ( window.getComputedStyle(x, null).getPropertyValue("display") === 'none') {
+      x.style.display = 'block';
+    } else {
+      x.style.display = 'none';
+    }
+  })
+}
+
+render('hamburger-menu', 'overlay')
+
 window.addEventListener("resize", function() {
   if (window.matchMedia("(min-width: 722px)").matches) {
     this.document.getElementById("container").style.display = ''
@@ -29,10 +42,7 @@ window.addEventListener("resize", function() {
   }
 })
 
-
-
 display__hide__elements (
-
   "feature-button",
   "hover-elements"
 )
@@ -40,4 +50,14 @@ display__hide__elements (
 display__hide__elements (
   "company-button",
   "hover-element-company-button"
+)
+
+display__hide__elements (
+  "hamburger-menu",
+  "container"
+)
+
+display__hide__elements(
+  "hamburger-menu",
+  "overlay"
 )

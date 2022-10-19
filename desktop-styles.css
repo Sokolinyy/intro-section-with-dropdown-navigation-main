@@ -32,6 +32,7 @@
     max-height: 50%;
     object-fit: contain;
     display: block;
+    margin-left: 20px;
   }
 
   .client img {
@@ -39,6 +40,10 @@
   }
   
   .mobile-image-hero, #hamburger-menu {
+    display: none;
+  }
+
+  #overlay {
     display: none;
   }
   
@@ -96,27 +101,36 @@
   
   /* HOVER CONTENT */
   
-  #hover-elements, #hover-element-company-button {
+  #arrow-feature-elements, #arrow-company-element {
     background-color: white;
     margin-top: 20px;
-    padding: 10px 20px;
     border-radius: 10px;
     position: absolute;
+    padding: 10px 20px;
+    left: -35px;
+  }
+
+  #arrow-company-element {
+    position: absolute;
+    left: 135px;
+  }
+
+  #arrow-company-element p {
+    margin: 10px 0;
   }
   
-  #hover-elements div {
+  #arrow-feature-elements div {
     display: flex;
+    margin: 0;
   }
   
-  #hover-elements > div > p {
+  #arrow-feature-elements > div > p {
     cursor: pointer;
     font-size: 13px;
-    margin: 8px 0px;
   }
   
-  #hover-elements img {
+  #arrow-feature-elements img {
     object-fit: contain;
-    margin-right: 10px;
   }
   
   /* MAIN CONTENT */

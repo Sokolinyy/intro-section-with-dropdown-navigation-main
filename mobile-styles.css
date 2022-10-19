@@ -154,8 +154,18 @@ nav li {
   text-align: center;
 }
 
-#company-button nav, #hover-elements div {
+#arrow-feature-elements div {
   margin-left: 20px;
+  margin-top: 5px;
+}
+
+#arrow-company-element p {
+  margin-left: 40px;
+  margin-top: 21px;
+}
+
+#arrow-feature-elements, #arrow-company-element {
+  margin-top: 10px;
 }
 
 .attribution {
